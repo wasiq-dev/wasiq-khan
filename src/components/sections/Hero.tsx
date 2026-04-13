@@ -25,10 +25,10 @@ const itemReveal = {
 };
 
 export function Hero() {
-  const lenis = useLenis();
+  // const lenis = useLenis();
 
   const scrollTo = (id: string) => {
-    lenis?.scrollTo(`#${id}`, { offset: -80 });
+    // lenis?.scrollTo(`#${id}`, { offset: -80 });
   };
 
   const reduceMotion = useReducedMotion();

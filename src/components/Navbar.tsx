@@ -22,7 +22,7 @@ export function Navbar() {
   const [active, setActive] = useState("home");
   const [isScrolled, setIsScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false); // Mobile menu state
-  const lenis = useLenis();
+  // const lenis = useLenis();
 
   const ids = useMemo(() => NAV.map((n) => n.id), []);
 
@@ -56,7 +56,7 @@ export function Navbar() {
   }, [ids]);
 
   function scrollTo(id: string) {
-    lenis?.scrollTo(`#${id}`, { offset: -80 });
+    // lenis?.scrollTo(`#${id}`, { offset: -80 });
     setIsOpen(false); // Menu close karein jab link click ho
   }
 
