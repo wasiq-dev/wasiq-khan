@@ -9,5 +9,10 @@ const nextConfig: NextConfig = {
   },
   // Agar aap images use kar rahe hain to uska domain yahan add kar sakte hain
 };
+module.exports = {
+  experimental: {
+    turbo: false,
+  },
+}
 
 export default nextConfig;
