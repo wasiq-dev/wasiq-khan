@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import { Inter, Roboto_Mono } from "next/font/google"
+
+const inter = Inter({ subsets: ["latin"] })
+const robotoMono = Roboto_Mono({ subsets: ["latin"] })import "./globals.css";
 import { Providers } from "./providers";
 
 const geistSans = Geist({
