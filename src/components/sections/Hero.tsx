@@ -5,7 +5,7 @@ import { motion, useReducedMotion } from "framer-motion";
 import { ArrowRight, FileText, Mail } from "lucide-react";
 import Typed from "typed.js";
 import { RippleButton } from "@/components/ui/RippleButton";
-import { useLenis } from "@studio-freight/react-lenis";
+// import { useLenis } from "@studio-freight/react-lenis";
 
 const container = {
   hidden: { opacity: 0 },

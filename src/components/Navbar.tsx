@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/cn";
 import { ThemeToggle } from "./ThemeToggle";
 import { Menu, X } from "lucide-react"; // Menu icons import karein
-import { useLenis } from "@studio-freight/react-lenis"; // Lenis hook use karein
+// import { useLenis } from "@studio-freight/react-lenis"; // Lenis hook use karein
 
 type NavItem = { id: string; label: string };
 
