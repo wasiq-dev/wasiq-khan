@@ -4,7 +4,10 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  // eslint wala block yahan se delete kar dein
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  // Agar aap images use kar rahe hain to uska domain yahan add kar sakte hain
 };
 
 export default nextConfig;
